@@ -1,0 +1,43 @@
+/* MainHero.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.main-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.main-hero h1 {
+  font-size: 50px;
+}
+
+.logo-img {
+    height: .8em;
+    filter: invert(1);
+    margin-right: .5em;
+    object-fit: fill;
+  }
+
+.text-container {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    color: #0c0c0c;
+    margin: auto;
+  }
+
+.header-text {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.description-text {
+  font-size: 1.2em;
+  color: #0c0c0c;
+}
